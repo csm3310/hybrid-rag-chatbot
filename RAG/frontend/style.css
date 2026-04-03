@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #f0f2f5;
+    font-family: "Pretendard", sans-serif;
+}
+
+.chat-container {
+    max-width: 800px;
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.chat-header {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.chat-header h2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.chat-window {
+    flex: 1;
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    overflow-y: auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* 메시지 공통 */
+.message {
+    max-width: 80%;
+    padding: 12px 15px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    line-height: 1.6;
+    font-size: 15px;
+    white-space: pre-wrap;
+    word-break: keep-all;
+}
+
+/* 사용자 메시지 */
+.user-message {
+    background: #d8eaff;
+    align-self: flex-end;
+    border-bottom-right-radius: 0;
+}
+
+/* 봇 메시지 */
+.bot-message {
+    background: #e9e9e9;
+    align-self: flex-start;
+    border-bottom-left-radius: 0;
+}
+
+.input-area {
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+#question {
+    flex: 1;
+    height: 60px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    font-size: 15px;
+    resize: none;
+}
+
+#sendBtn {
+    width: 80px;
+    background: #4a90e2;
+    border: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+#sendBtn:hover {
+    background: #3578c3;
+}
