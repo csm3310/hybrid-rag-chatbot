@@ -24,7 +24,7 @@
 
 ## 🎥 Demo
 
-[![Demo Video](./assets/demo.png)](./video/figure1.mp4)
+![Demo](./video/demo.gif)
 
 ---
 
