@@ -7,7 +7,7 @@
 
 ---
 
-## 🚀 1. Project Overview
+## 1. Project Overview
 
 기존의 학교 정보 탐색 방식은 다음과 같은 문제를 가지고 있습니다.
 
@@ -28,19 +28,19 @@
 
 ---
 
-## 🧠 2. Key Features
+## 2. Key Features
 
-- 🎯 순천향대학교 정보에 특화된 챗봇
-- 🔍 Hybrid Search (BM25 + Dense Retrieval)
-- 🧩 CrossEncoder 기반 Re-ranking
-- 💬 Follow-up 질문 대응 (대화 메모리)
-- 🧠 Query Rewrite로 검색 성능 향상
-- 📄 답변 근거 URL 제공 (출처 기반 응답)
-- ⚡ 평균 응답 시간 2~3초
+-  순천향대학교 정보에 특화된 챗봇
+-  Hybrid Search (BM25 + Dense Retrieval)
+-  CrossEncoder 기반 Re-ranking
+-  Follow-up 질문 대응 (대화 메모리)
+-  Query Rewrite로 검색 성능 향상
+-  답변 근거 URL 제공 (출처 기반 응답)
+-  평균 응답 시간 2~3초
 
 ---
 
-## 🏗️ 3. Folder Structure
+## 3. Folder Structure
 
 ```
 .
@@ -57,7 +57,7 @@
 
 ---
 
-## 📊 4. Data
+## 4. Data
 
 본 프로젝트는 순천향대학교 홈페이지 데이터를 기반으로 구축되었습니다.
 
@@ -76,7 +76,7 @@
 
 ---
 
-## 🔥 5. Core RAG Pipeline
+## 5. Core RAG Pipeline
 
 ```
 User Query
@@ -98,7 +98,7 @@ Response + Source URL
 
 ---
 
-## 📈 6. Evaluation
+## 6. Evaluation
 
 | Metric | Value |
 |------|------|
@@ -108,7 +108,7 @@ Response + Source URL
 
 ---
 
-## ⚙️ 7. Tech Stack
+## 7. Tech Stack
 
 - Flask
 - LangChain
@@ -119,7 +119,7 @@ Response + Source URL
 
 ---
 
-## 📦 8. Installation
+## 8. Installation
 
 ```bash
 pip install -r requirements.txt
@@ -161,7 +161,7 @@ python -m http.server 5500
 
 ---
 
-## 🔌 10. API Example
+## 10. API Example
 
 ### POST /ask
 
@@ -180,7 +180,7 @@ python -m http.server 5500
 
 ---
 
-## 🚧 12. Future Work
+## 12. Future Work
 
 - Query Intent Classification
 - Domain 별 Index 분리
