@@ -50,7 +50,9 @@
 │   └── data/
 ├── video/
 │   └── figure1
+│   └── figure2
 │   └── demo
+│   └── CoT
 ├── README.md
 ├── requirements.txt
 ```
@@ -95,6 +97,25 @@ LLM Answer Generation
    ↓
 Response + Source URL
 ```
+
+## 5-1. Prompt Design (CoT + Guardrail)
+
+시스템은 신뢰성 있고 도메인에 특화된 응답을 생성하기 위해 프롬프트 수준에서 엄격한 제약을 적용합니다.
+
+### Key Rules
+
+- **Context 기반 응답만 허용 (RAG Grounding)**
+- **도메인 외 질문 차단 (순천향대학교 외 질문 제한)**
+- **정보가 없으면 생성하지 않고 "I don't know" 반환**
+- **Follow-up 질문 시 이전 답변 반복 없이 추가 정보 제공**
+- **응답은 한국어 3~5문장으로 간결하게 생성**
+
+### Domain Restriction
+
+순천향대학교와 관련 없는 질문에 대해서는 다음과 같이 응답합니다:
+"저는 순천향대학교 챗봇입니다. 해당 질문에 대해서는 답변할 수 없습니다."
+
+![Demo](./video/CoT.gif)
 
 ---
 
