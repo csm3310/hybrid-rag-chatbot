@@ -1,4 +1,5 @@
 # 🎓 Soonchunhyang University RAG Chatbot
+# 🎓 Soonchunhyang University RAG Chatbot
 
 순천향대학교 공지 및 학사 정보를 자연어 질문으로 탐색할 수 있는  
 **RAG(Retrieval-Augmented Generation) 기반 챗봇 시스템**입니다.
