@@ -590,9 +590,3 @@ http://localhost:5500
 특히 단순한 기술 조합이 아니라, 각 컴포넌트가 왜 필요한지를 고민하고, 가중치 설정(BM25×0.5 + Dense×1.0)부터 follow-up threshold(0.40), query rewrite 조건, context 길이 제한(2,000자)까지 실험을 통해 결정한 설계입니다.
 
 ---
-
-## References
-
-* Lewis et al., "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks" (2020)
-* Lost in the Middle: How Language Models Use Long Contexts
-* Hybrid search using vectors and full text in Azure AI Search
