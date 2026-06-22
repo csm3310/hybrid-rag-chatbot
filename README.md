@@ -152,6 +152,8 @@ User Query
         - 단일 턴 대화 메모리
 ```
 
+![Inference Pipeline](video/pipeline.png)
+
 ---
 
 ## 5. Design Philosophy
